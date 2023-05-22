@@ -1,0 +1,26 @@
+// app global css in SCSS form
+
+body {
+  background: #1c1b1b;
+  color: #21BA45;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #003916 #0ab81c;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #003916;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0ab81c;
+  border-radius: 20px;
+  border: 3px solid #009d3a;
+}
